@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from datetime import datetime
-from operations.Register import reg
+from operations.register import reg
 from operations.Validations.validate import *
 
 app = Flask(__name__)
